@@ -1,0 +1,36 @@
+body{
+    background: #EEE;
+}
+
+.Game{
+    width: 243px;
+    text-align: center;
+    font-family: system-ui;
+    color: white ; 
+    margin: auto;
+}
+
+.header{
+    background: rgb(28, 9, 120);
+    padding: 5px 0;
+    margin: 0 0 ; 
+}
+
+span{
+    color: #fa0 ; 
+}
+
+.square{
+    width: 77px;
+    height: 80px;
+    background: rgb(25, 78, 176);
+    float : left ; 
+    margin: 0px;
+    font-size: 50px;
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+.square:hover{
+    background: rgb(137, 172, 255);
+    cursor: pointer;
+}
